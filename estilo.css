@@ -30,8 +30,24 @@ body {
     background: rgb(9, 204, 238);
     font-family: 'Courier New', Courier, monospace;
   }
-  Footer
-  © 2022 GitHub, Inc.
-  Footer navigation
-  Terms
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: 0;
+  }
+  li {
+    float: left;
+  }
+  li a{
+    display: block;
+    color: darkblue;
+    text-align: center;
+  padding: 14px  16px;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  li a:hover {
+    background: blue;
+  }
   

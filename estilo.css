@@ -1,53 +1,74 @@
 body {
-    background: cyan;
-  }
-  h1 {
-    text-align: center;
-  }
-  .caixa1 {
-    position: absolute;
-    background: green;
-    color: #FFFFFF;
-    width: 200px;
-    height: 200px;
-    right: 0;
-    bottom: 0;
-  }
-  .caixa2{
-    position: absolute;
-    background: green;
-    color: #FFFFFF;
-    width:200px;
-    height: 200px
-    right: 200px;
-    bottom: 200px; 
-  }
-  .menuPrincipal {
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 80px;
-    background: rgb(9, 204, 238);
-    font-family: 'Courier New', Courier, monospace;
-  }
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: 0;
-  }
-  li {
-    float: left;
-  }
-  li a{
-    display: block;
-    color: darkblue;
-    text-align: center;
-  padding: 14px  16px;
+  background: gray;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+.menuPrincipal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+   float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  li a:hover {
-    background: blue;
-  }
-  
+}
+li a:hover {
+  background: purple;
+  color: rgb(0, 0, 0);
+}
+#neymar {
+  width: 15%;
+}
+.caixaneymar {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 90%;
+  height: 140px;
+  background: black;
+  margin: 20px;
+  border-color: purple;
+  border-width: 20px;
+  border-style: double;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.rodape {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 40px;
+  background: rgb(0, 0, 0);
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+}
+.conteudo {
+  position: absolute;
+  top: 45px;
+  width: 100%;
+}
